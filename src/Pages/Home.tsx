@@ -10,6 +10,7 @@ const Home = () => {
 
   const handleSubmin = (e: FormEvent) => {
     e.preventDefault();
+    // eslint-disable-next-line no-constant-condition
     if (true) {
       handleModalClose();
     }
